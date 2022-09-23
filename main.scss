@@ -5,9 +5,7 @@
   background-color: #2c2a2a;
 }
 
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-}
+
 main {
   display: flex;
   flex-direction: column;
@@ -37,12 +35,24 @@ main {
       justify-content: space-between;
     }
   }
-  .main__name-text {
+  .main__job-role-text {
     display: flex;
     flex-wrap: wrap;
     max-width: 50%;
-    margin: 5px 0px;
+    margin: 20px 0px;
 
-    border: 2px solid blueviolet;
+    border: 2px solid rgb(228, 163, 9);
+  }
+  .main__placeholder-text {
+    border: 2px solid yellowgreen;
+    width: 90%;
+    margin: 20px, 0px;
+  }
+  .skills-section {
+    display: flex;
+    height: 20vh;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid white;
   }
 }
