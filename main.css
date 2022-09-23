@@ -15,7 +15,7 @@ main {
   color: white;
   border: 2px solid red;
 }
-main .nav-bar {
+main .header__nav-bar {
   border: 2px solid red;
   display: flex;
   flex-direction: row;
@@ -23,15 +23,22 @@ main .nav-bar {
   align-items: center;
   height: 10vh;
 }
-main .nav-bar a {
+main .header__nav-bar a {
   color: white;
   text-decoration: none;
 }
-main .nav-bar .nav-bar__options {
+main .header__nav-bar .nav-bar__options {
   display: flex;
   align-items: center;
   width: 60vw;
   height: 5vh;
   border: 2px solid yellow;
   justify-content: space-between;
+}
+main .main__name-text {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  margin: 5px 0px;
+  border: 2px solid blueviolet;
 }/*# sourceMappingURL=main.css.map */
