@@ -31,6 +31,11 @@ main .header__nav-bar .nav-bar__options {
   border: 2px solid yellow;
   justify-content: space-between;
 }
+main .main__centre-text {
+  display: flex;
+  justify-content: center;
+  border: 2px solid burlywood;
+}
 main .main__job-role-text {
   display: flex;
   flex-wrap: wrap;
@@ -43,10 +48,24 @@ main .main__placeholder-text {
   width: 90%;
   margin: 20px, 0px;
 }
-main .skills-section {
+main .skills-section-container {
   display: flex;
   height: 20vh;
-  flex-direction: row;
-  justify-content: center;
   border: 2px solid white;
+}
+main .skills-section-container .skills-section-container__left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  border: 2px solid blue;
+}
+main .skills-section-container .skills-section-container__right-side {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid green;
+  width: 50%;
 }/*# sourceMappingURL=main.css.map */

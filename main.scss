@@ -5,7 +5,6 @@
   background-color: #2c2a2a;
 }
 
-
 main {
   display: flex;
   flex-direction: column;
@@ -35,6 +34,11 @@ main {
       justify-content: space-between;
     }
   }
+  .main__centre-text {
+    display: flex;
+    justify-content: center;
+    border: 2px solid burlywood;
+  }
   .main__job-role-text {
     display: flex;
     flex-wrap: wrap;
@@ -48,11 +52,26 @@ main {
     width: 90%;
     margin: 20px, 0px;
   }
-  .skills-section {
+  .skills-section-container {
     display: flex;
     height: 20vh;
-    flex-direction: row;
-    justify-content: center;
+
     border: 2px solid white;
+    .skills-section-container__left-side {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 50%;
+      border: 2px solid blue;
+    }
+    .skills-section-container__right-side {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      border: 2px solid green;
+      width: 50%;
+    }
   }
 }
