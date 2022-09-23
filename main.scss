@@ -87,12 +87,13 @@ main {
     padding: 10px 0px;
     height: auto;
   }
-  .main__about-section {
+  .main__about-article {
     display: inline-block;
     border: 2px solid blue;
     padding: 10px 0px;
     p {
       margin-top: 20px;
+      width: 95%;
     }
   }
 }

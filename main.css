@@ -80,11 +80,12 @@ main .main__project-container {
   padding: 10px 0px;
   height: auto;
 }
-main .main__about-section {
+main .main__about-article {
   display: inline-block;
   border: 2px solid blue;
   padding: 10px 0px;
 }
-main .main__about-section p {
+main .main__about-article p {
   margin-top: 20px;
+  width: 95%;
 }/*# sourceMappingURL=main.css.map */
