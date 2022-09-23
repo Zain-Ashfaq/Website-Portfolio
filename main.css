@@ -35,6 +35,7 @@ main .main__centre-text {
   display: flex;
   justify-content: center;
   border: 2px solid burlywood;
+  margin: 10px 0px;
 }
 main .main__job-role-text {
   display: flex;
@@ -66,6 +67,24 @@ main .skills-section-container .skills-section-container__right-side {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
   border: 2px solid green;
   width: 50%;
+}
+main .main__project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid green;
+  padding: 10px 0px;
+  height: auto;
+}
+main .main__about-section {
+  display: inline-block;
+  border: 2px solid blue;
+  padding: 10px 0px;
+}
+main .main__about-section p {
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */
