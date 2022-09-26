@@ -134,6 +134,14 @@ main {
     border: 2px solid green;
     padding: 10px 0px;
     height: auto;
+
+    .project-container__individual-container {
+      border: 2px solid purple;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      margin: 10px;
+    }
   }
   .main__about-article {
     display: inline-block;
@@ -142,6 +150,40 @@ main {
     p {
       margin-top: 20px;
       width: 95%;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  main {
+    background-color: green;
+
+    .skills-section-container {
+      height: 40vh;
+      font-size: 30px;
+    }
+    .main__project-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      border: 2px solid green;
+      padding: 10px 0px;
+      height: auto;
+    }
+    .main__about-article {
+      display: inline-block;
+      border: 2px solid blue;
+      padding: 10px 0px;
+      p {
+        margin-top: 20px;
+        width: 95%;
+      }
+    }
+    .project-container__individual-container {
+      // border: 2px solid purple;
+      display: flex;
+      flex-direction: column;
     }
   }
 }
