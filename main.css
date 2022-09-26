@@ -23,7 +23,7 @@ main .header__nav-bar a {
   color: white;
   text-decoration: none;
 }
-main .header__nav-bar .nav-bar__options {
+main .header__nav-bar .nav-bar__container {
   display: flex;
   align-items: center;
   width: 60vw;
