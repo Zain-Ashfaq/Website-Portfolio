@@ -164,10 +164,10 @@ main {
 // Tablet screen size
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   main {
-    .skills-section-container {
-      height: 40vh;
-      font-size: 30px;
-    }
+    // .skills-section-container {
+    //   height: 40vh;
+    //   font-size: 30px;
+    // }
     .main__project-container {
       display: flex;
       flex-direction: row;

@@ -145,10 +145,6 @@ main .main__about-article p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  main .skills-section-container {
-    height: 40vh;
-    font-size: 30px;
-  }
   main .main__project-container {
     display: flex;
     flex-direction: row;
